@@ -61,7 +61,7 @@ class AUTH extends Controller
                     // Role-based redirection
                     switch ($user['role']) {
                         case 'warehouse_manager':
-                            return redirect()->to('/dashboard/manager');
+                            return redirect()->to('/inventory');
                         case 'warehouse_staff':
                             return redirect()->to('/dashboard/staff');
                         case 'inventory_auditor':
@@ -77,7 +77,7 @@ class AUTH extends Controller
                         case 'top_management':
                             return redirect()->to('/dashboard/top');
                         default:
-                            return redirect()->to('/dashboard');
+                            return redirect()->to('/');
                     }
                 } else {
                     session()->setFlashdata('error', 'Invalid email or password.');
