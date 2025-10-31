@@ -33,7 +33,7 @@ class InventoryModel extends Model
     protected $updatedField = 'updated_at';
 
     protected $validationRules = [
-        'item_id'       => 'required',  // We'll handle uniqueness in controller for updates
+        'item_id'       => 'required',  
         'item_name'     => 'required|min_length[3]|max_length[255]',
         'category_id'   => 'required|integer',
         'warehouse_id'  => 'required|integer',

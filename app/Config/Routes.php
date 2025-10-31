@@ -34,3 +34,20 @@ $routes->get('inventory/view/(:num)', 'InventoryController::view/$1');
 $routes->get('inventory/edit/(:num)', 'InventoryController::edit/$1');
 $routes->post('inventory/update/(:num)', 'InventoryController::update/$1');
 $routes->get('inventory/delete/(:num)', 'InventoryController::delete/$1');
+
+// Stock Movement Routes (Web)
+$routes->get('stock-movements', 'StockMovementController::index');
+$routes->get('stock-movements/in', 'StockMovementController::stockInForm');
+$routes->get('stock-movements/out', 'StockMovementController::stockOutForm');
+$routes->get('stock-movements/transfer', 'StockMovementController::transferForm');
+
+// Stock Movement API Routes (RESTful)
+$routes->group('api/stock-movements', function($routes) {
+    $routes->get('', 'StockMovementController::apiGetMovements');
+    $routes->get('stats', 'StockMovementController::apiGetStats');
+    $routes->get('item/(:num)', 'StockMovementController::apiGetItemHistory/$1');
+    $routes->post('in', 'StockMovementController::apiStockIn');
+    $routes->post('out', 'StockMovementController::apiStockOut');
+    $routes->post('transfer', 'StockMovementController::apiTransfer');
+    $routes->post('adjustment', 'StockMovementController::apiAdjustment');
+});
