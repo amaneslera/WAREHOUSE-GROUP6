@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'AUTH::login');
 
 // Auth routes
 $routes->get('login', 'AUTH::login');
@@ -25,6 +25,20 @@ $routes->get('dashboard/apclerk', 'Dashboard::apclerk');
 $routes->get('dashboard/arclerk', 'Dashboard::arclerk');
 $routes->get('dashboard/it', 'Dashboard::it');
 $routes->get('dashboard/top', 'Dashboard::top');
+
+// Accounts Payable Routes
+$routes->get('invoice-management', 'InvoiceManagementController::index');
+$routes->get('invoice-management/approve/(:num)', 'InvoiceManagementController::approve/$1');
+$routes->get('invoice-management/mark-paid/(:num)', 'InvoiceManagementController::markPaid/$1');
+$routes->get('invoice-management/view/(:num)', 'InvoiceManagementController::view/$1');
+
+$routes->get('payment-recording', 'PaymentRecordingController::index');
+$routes->get('payment-recording/create', 'PaymentRecordingController::create');
+$routes->post('payment-recording/store', 'PaymentRecordingController::store');
+
+$routes->get('supplier-management', 'SupplierManagementController::index');
+$routes->get('supplier-management/edit/(:num)', 'SupplierManagementController::edit/$1');
+$routes->post('supplier-management/update/(:num)', 'SupplierManagementController::update/$1');
 
 // Inventory Management Routes
 $routes->get('inventory', 'InventoryController::index');
