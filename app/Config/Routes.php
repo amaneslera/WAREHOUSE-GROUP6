@@ -40,14 +40,33 @@ $routes->get('supplier-management', 'SupplierManagementController::index');
 $routes->get('supplier-management/edit/(:num)', 'SupplierManagementController::edit/$1');
 $routes->post('supplier-management/update/(:num)', 'SupplierManagementController::update/$1');
 
-// Inventory Management Routes
-$routes->get('inventory', 'InventoryController::index');
-$routes->get('inventory/add', 'InventoryController::add');
-$routes->post('inventory/create', 'InventoryController::create');
-$routes->get('inventory/view/(:num)', 'InventoryController::view/$1');
+// Inventory Management Routes (Web/View Routes - Legacy)
+$routes->get('inventory', 'InventoryController::indexView');
+$routes->get('inventory/add', 'InventoryController::create');
+$routes->get('inventory/view/(:num)', 'InventoryController::show/$1');
 $routes->get('inventory/edit/(:num)', 'InventoryController::edit/$1');
-$routes->post('inventory/update/(:num)', 'InventoryController::update/$1');
-$routes->get('inventory/delete/(:num)', 'InventoryController::delete/$1');
+
+// Inventory API Test Page
+$routes->get('inventory/test', 'InventoryTestController::index');
+
+// Inventory API Routes (RESTful JSON endpoints)
+$routes->group('api/inventory', ['namespace' => 'App\Controllers'], function($routes) {
+    // GET /api/inventory - List all items with filters
+    $routes->get('', 'InventoryController::index');
+    
+    // GET /api/inventory/{id} - Show specific item
+    $routes->get('(:num)', 'InventoryController::show/$1');
+    
+    // POST /api/inventory - Create new item
+    $routes->post('', 'InventoryController::store');
+    
+    // PUT/PATCH /api/inventory/{id} - Update item
+    $routes->put('(:num)', 'InventoryController::update/$1');
+    $routes->patch('(:num)', 'InventoryController::update/$1');
+    
+    // DELETE /api/inventory/{id} - Delete item
+    $routes->delete('(:num)', 'InventoryController::delete/$1');
+});
 
 // Stock Movement Routes (Web)
 $routes->get('stock-movements', 'StockMovementController::index');
