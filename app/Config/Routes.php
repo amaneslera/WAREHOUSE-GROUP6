@@ -84,3 +84,37 @@ $routes->group('api/stock-movements', function($routes) {
     $routes->post('transfer', 'StockMovementController::apiTransfer');
     $routes->post('adjustment', 'StockMovementController::apiAdjustment');
 });
+
+// Accounts Receivable API Routes (RESTful JSON endpoints)
+$routes->group('api/accounts-receivable', ['namespace' => 'App\Controllers'], function($routes) {
+    // GET /api/accounts-receivable - List all AR invoices with pagination & filtering
+    $routes->get('', 'AccountsReceivableController::index');
+    
+    // GET /api/accounts-receivable/overdue - Get overdue invoices report
+    $routes->get('overdue', 'AccountsReceivableController::getOverdue');
+    
+    // GET /api/accounts-receivable/outstanding - Get outstanding balance report
+    $routes->get('outstanding', 'AccountsReceivableController::getOutstanding');
+    
+    // GET /api/accounts-receivable/stats - Get AR statistics
+    $routes->get('stats', 'AccountsReceivableController::getStats');
+    
+    // GET /api/accounts-receivable/{id} - Show specific AR invoice with payment history
+    $routes->get('(:num)', 'AccountsReceivableController::show/$1');
+    
+    // GET /api/accounts-receivable/{id}/history - Get payment history for invoice
+    $routes->get('(:num)/history', 'AccountsReceivableController::getPaymentHistory/$1');
+    
+    // POST /api/accounts-receivable - Create new AR invoice
+    $routes->post('', 'AccountsReceivableController::store');
+    
+    // POST /api/accounts-receivable/{id}/payment - Record payment for invoice
+    $routes->post('(:num)/payment', 'AccountsReceivableController::recordPayment/$1');
+    
+    // PUT/PATCH /api/accounts-receivable/{id} - Update AR invoice
+    $routes->put('(:num)', 'AccountsReceivableController::update/$1');
+    $routes->patch('(:num)', 'AccountsReceivableController::update/$1');
+    
+    // DELETE /api/accounts-receivable/{id} - Cancel/delete AR invoice
+    $routes->delete('(:num)', 'AccountsReceivableController::delete/$1');
+});
