@@ -144,4 +144,102 @@ class AccountsPayableModel extends Model
                     ->join('vendors', 'vendors.id = accounts_payable.vendor_id')
                     ->find($id);
     }
+
+    /**
+     * Get invoices with vendor details
+     *
+     * @param array $filters
+     * @return array
+     */
+    public function getInvoicesWithVendors($filters = [])
+    {
+        $builder = $this->select('accounts_payable.*, vendors.vendor_name, vendors.vendor_code')
+                        ->join('vendors', 'vendors.id = accounts_payable.vendor_id');
+
+        // Apply filters
+        if (isset($filters['status'])) {
+            $builder->where('accounts_payable.status', $filters['status']);
+        }
+        
+        if (isset($filters['vendor_id'])) {
+            $builder->where('accounts_payable.vendor_id', $filters['vendor_id']);
+        }
+        
+        if (isset($filters['date_from'])) {
+            $builder->where('accounts_payable.invoice_date >=', $filters['date_from']);
+        }
+        
+        if (isset($filters['date_to'])) {
+            $builder->where('accounts_payable.invoice_date <=', $filters['date_to']);
+        }
+
+        return $builder->orderBy('accounts_payable.created_at', 'DESC')->findAll();
+    }
+
+    /**
+     * Get partially paid invoices
+     *
+     * @return array
+     */
+    public function getPartiallyPaidInvoices()
+    {
+        return $this->where('status', 'partial')->findAll();
+    }
+
+    /**
+     * Get AP statistics
+     *
+     * @return array
+     */
+    public function getStatistics()
+    {
+        return [
+            'total_invoices' => $this->countAllResults(false),
+            'total_amount' => $this->selectSum('invoice_amount')->first()['invoice_amount'] ?? 0,
+            'total_paid' => $this->selectSum('paid_amount')->first()['paid_amount'] ?? 0,
+            'total_outstanding' => $this->getTotalAmountDue(),
+            'pending_count' => $this->where('status', 'pending')->countAllResults(false),
+            'partial_count' => $this->where('status', 'partial')->countAllResults(false),
+            'paid_count' => $this->where('status', 'paid')->countAllResults(false),
+            'overdue_count' => $this->where('status', 'overdue')->countAllResults(false),
+            'processed_today' => $this->getProcessedTodayCount()
+        ];
+    }
+
+    /**
+     * Get AP aging report (invoices grouped by age)
+     *
+     * @return array
+     */
+    public function getAgingReport()
+    {
+        $invoices = $this->whereIn('status', ['pending', 'partial', 'overdue'])->findAll();
+        
+        $aging = [
+            'current' => ['count' => 0, 'amount' => 0],      // 0-30 days
+            '30_days' => ['count' => 0, 'amount' => 0],      // 31-60 days
+            '60_days' => ['count' => 0, 'amount' => 0],      // 61-90 days
+            '90_plus' => ['count' => 0, 'amount' => 0]       // 90+ days
+        ];
+
+        foreach ($invoices as $invoice) {
+            $daysOverdue = (time() - strtotime($invoice['due_date'])) / (60 * 60 * 24);
+            
+            if ($daysOverdue <= 30) {
+                $aging['current']['count']++;
+                $aging['current']['amount'] += $invoice['balance'];
+            } elseif ($daysOverdue <= 60) {
+                $aging['30_days']['count']++;
+                $aging['30_days']['amount'] += $invoice['balance'];
+            } elseif ($daysOverdue <= 90) {
+                $aging['60_days']['count']++;
+                $aging['60_days']['amount'] += $invoice['balance'];
+            } else {
+                $aging['90_plus']['count']++;
+                $aging['90_plus']['amount'] += $invoice['balance'];
+            }
+        }
+
+        return $aging;
+    }
 }

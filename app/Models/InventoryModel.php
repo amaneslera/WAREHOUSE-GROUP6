@@ -155,4 +155,52 @@ class InventoryModel extends Model
         $builder->orderBy('i.created_at', 'DESC');
         return $builder->get()->getResultArray();
     }
+
+    /**
+     * Get current stock summary by warehouse
+     *
+     * @return array
+     */
+    public function getStockSummaryByWarehouse()
+    {
+        $builder = $this->db->table('inventory_items i');
+        $builder->select('
+            w.id as warehouse_id,
+            w.warehouse_name,
+            COUNT(i.id) as total_items,
+            SUM(i.current_stock) as total_quantity,
+            SUM(i.current_stock * i.unit_price) as total_value,
+            SUM(CASE WHEN i.current_stock <= i.minimum_stock THEN 1 ELSE 0 END) as low_stock_count
+        ');
+        $builder->join('warehouses w', 'w.id = i.warehouse_id');
+        $builder->groupBy('w.id, w.warehouse_name');
+        $builder->orderBy('w.warehouse_name', 'ASC');
+        return $builder->get()->getResultArray();
+    }
+
+    /**
+     * Get most moved items based on stock movement history
+     *
+     * @param int $limit
+     * @return array
+     */
+    public function getMostMovedItems($limit = 10)
+    {
+        $builder = $this->db->table('stock_movements sm');
+        $builder->select('
+            i.id,
+            i.item_id,
+            i.item_name,
+            i.category_id,
+            c.category_name,
+            COUNT(sm.id) as movement_count,
+            SUM(sm.quantity) as total_quantity_moved
+        ');
+        $builder->join('inventory_items i', 'i.id = sm.inventory_item_id');
+        $builder->join('categories c', 'c.id = i.category_id', 'left');
+        $builder->groupBy('i.id, i.item_id, i.item_name, i.category_id, c.category_name');
+        $builder->orderBy('movement_count', 'DESC');
+        $builder->limit($limit);
+        return $builder->get()->getResultArray();
+    }
 }

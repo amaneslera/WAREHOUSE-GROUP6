@@ -118,3 +118,25 @@ $routes->group('api/accounts-receivable', ['namespace' => 'App\Controllers'], fu
     // DELETE /api/accounts-receivable/{id} - Cancel/delete AR invoice
     $routes->delete('(:num)', 'AccountsReceivableController::delete/$1');
 });
+
+// Reports API Routes (Centralized Reporting System)
+$routes->group('api/reports', ['namespace' => 'App\Controllers'], function($routes) {
+    // Inventory Reports
+    $routes->get('inventory/summary', 'ReportsController::inventorySummary');
+    $routes->get('inventory/low-stock', 'ReportsController::inventoryLowStock');
+    $routes->get('inventory/movements', 'ReportsController::inventoryMovements');
+    
+    // Accounts Receivable Reports
+    $routes->get('ar/outstanding', 'ReportsController::arOutstanding');
+    $routes->get('ar/aging', 'ReportsController::arAging');
+    $routes->get('ar/history', 'ReportsController::arHistory');
+    
+    // Accounts Payable Reports
+    $routes->get('ap/outstanding', 'ReportsController::apOutstanding');
+    $routes->get('ap/aging', 'ReportsController::apAging');
+    $routes->get('ap/history', 'ReportsController::apHistory');
+    
+    // Warehouse Usage Dashboard
+    $routes->get('warehouse/usage', 'ReportsController::warehouseUsage');
+});
+

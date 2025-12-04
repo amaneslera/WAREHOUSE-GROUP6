@@ -265,4 +265,120 @@ class StockMovementModel extends Model
         $builder->groupBy('movement_type');
         return $builder->get()->getResultArray();
     }
+
+    /**
+     * Get total movement summary (IN, OUT, TRANSFER)
+     * 
+     * @param array $dateRange Optional date range ['from' => 'Y-m-d', 'to' => 'Y-m-d']
+     * @return array
+     */
+    public function getTotalMovementSummary($dateRange = [])
+    {
+        $builder = $this->db->table('stock_movements');
+        $builder->select('
+            movement_type,
+            COUNT(*) as transaction_count,
+            SUM(quantity) as total_quantity
+        ');
+
+        if (!empty($dateRange['from'])) {
+            $builder->where('created_at >=', $dateRange['from']);
+        }
+        if (!empty($dateRange['to'])) {
+            $builder->where('created_at <=', $dateRange['to']);
+        }
+
+        $builder->groupBy('movement_type');
+        $results = $builder->get()->getResultArray();
+
+        // Transform into structured format
+        $summary = [
+            'in' => ['count' => 0, 'quantity' => 0],
+            'out' => ['count' => 0, 'quantity' => 0],
+            'transfer' => ['count' => 0, 'quantity' => 0],
+            'adjustment' => ['count' => 0, 'quantity' => 0]
+        ];
+
+        foreach ($results as $row) {
+            if (isset($summary[$row['movement_type']])) {
+                $summary[$row['movement_type']] = [
+                    'count' => (int)$row['transaction_count'],
+                    'quantity' => (int)$row['total_quantity']
+                ];
+            }
+        }
+
+        return $summary;
+    }
+
+    /**
+     * Get most moved items across all warehouses
+     * 
+     * @param int $limit
+     * @return array
+     */
+    public function getMostMovedItems($limit = 10)
+    {
+        $builder = $this->db->table('stock_movements sm');
+        $builder->select('
+            i.id as item_id,
+            i.item_id as item_code,
+            i.item_name,
+            c.category_name,
+            COUNT(sm.id) as movement_count,
+            SUM(sm.quantity) as total_quantity_moved,
+            SUM(CASE WHEN sm.movement_type = "in" THEN sm.quantity ELSE 0 END) as quantity_in,
+            SUM(CASE WHEN sm.movement_type = "out" THEN sm.quantity ELSE 0 END) as quantity_out,
+            SUM(CASE WHEN sm.movement_type = "transfer" THEN sm.quantity ELSE 0 END) as quantity_transferred
+        ');
+        $builder->join('inventory_items i', 'i.id = sm.inventory_item_id');
+        $builder->join('categories c', 'c.id = i.category_id', 'left');
+        $builder->groupBy('i.id, i.item_id, i.item_name, c.category_name');
+        $builder->orderBy('movement_count', 'DESC');
+        $builder->limit($limit);
+        return $builder->get()->getResultArray();
+    }
+
+    /**
+     * Get warehouse turnover rate (basic calculation)
+     * Turnover = Total OUT / Average Stock
+     * 
+     * @param int $warehouseId
+     * @param int $days Period in days (default 30)
+     * @return array
+     */
+    public function getWarehouseTurnoverRate($warehouseId, $days = 30)
+    {
+        $dateFrom = date('Y-m-d H:i:s', strtotime("-{$days} days"));
+
+        // Get total OUT movements
+        $builder = $this->db->table('stock_movements sm');
+        $builder->select('SUM(sm.quantity) as total_out');
+        $builder->where('sm.from_warehouse_id', $warehouseId);
+        $builder->where('sm.movement_type', 'out');
+        $builder->where('sm.created_at >=', $dateFrom);
+        $outResult = $builder->get()->getRowArray();
+        $totalOut = (int)($outResult['total_out'] ?? 0);
+
+        // Get average stock for warehouse
+        $builder = $this->db->table('inventory_items');
+        $builder->select('AVG(current_stock) as avg_stock, SUM(current_stock) as total_stock');
+        $builder->where('warehouse_id', $warehouseId);
+        $stockResult = $builder->get()->getRowArray();
+        $avgStock = (float)($stockResult['avg_stock'] ?? 0);
+        $totalStock = (int)($stockResult['total_stock'] ?? 0);
+
+        // Calculate turnover rate
+        $turnoverRate = $avgStock > 0 ? round($totalOut / $avgStock, 2) : 0;
+
+        return [
+            'warehouse_id' => $warehouseId,
+            'period_days' => $days,
+            'total_out' => $totalOut,
+            'average_stock' => round($avgStock, 2),
+            'current_total_stock' => $totalStock,
+            'turnover_rate' => $turnoverRate,
+            'turnover_percentage' => round($turnoverRate * 100, 2)
+        ];
+    }
 }
