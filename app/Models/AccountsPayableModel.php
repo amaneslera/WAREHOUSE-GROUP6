@@ -22,6 +22,8 @@ class AccountsPayableModel extends Model
 
     protected $allowedFields = [
         'invoice_number',
+        'po_reference',
+        'delivery_receipt',
         'vendor_id',
         'invoice_date',
         'due_date',
@@ -33,6 +35,11 @@ class AccountsPayableModel extends Model
         'payment_method',
         'payment_reference',
         'warehouse_id',
+        'stock_movement_ids',
+        'matching_status',
+        'discrepancy_notes',
+        'matched_by',
+        'matched_at',
         'created_by'
     ];
 
@@ -241,5 +248,109 @@ class AccountsPayableModel extends Model
         }
 
         return $aging;
+    }
+
+    /**
+     * Match invoice with documents
+     *
+     * @param int $id
+     * @param array $matchData
+     * @return bool
+     */
+    public function matchInvoice($id, $matchData)
+    {
+        $updateData = [
+            'po_reference' => $matchData['po_reference'] ?? null,
+            'delivery_receipt' => $matchData['delivery_receipt'] ?? null,
+            'stock_movement_ids' => $matchData['stock_movement_ids'] ?? null,
+            'matching_status' => $matchData['matching_status'] ?? 'matched',
+            'discrepancy_notes' => $matchData['discrepancy_notes'] ?? null,
+            'matched_by' => session('user_id'),
+            'matched_at' => date('Y-m-d H:i:s')
+        ];
+
+        return $this->update($id, $updateData);
+    }
+
+    /**
+     * Flag discrepancy for invoice
+     *
+     * @param int $id
+     * @param string $notes
+     * @return bool
+     */
+    public function flagDiscrepancy($id, $notes)
+    {
+        return $this->update($id, [
+            'matching_status' => 'discrepancy',
+            'discrepancy_notes' => $notes,
+            'matched_by' => session('user_id'),
+            'matched_at' => date('Y-m-d H:i:s')
+        ]);
+    }
+
+    /**
+     * Get related stock movements for invoice
+     *
+     * @param int $id
+     * @return array
+     */
+    public function getRelatedStockMovements($id)
+    {
+        $invoice = $this->find($id);
+        if (!$invoice || empty($invoice['stock_movement_ids'])) {
+            return [];
+        }
+
+        $movementIds = explode(',', $invoice['stock_movement_ids']);
+        $stockMovementModel = new \App\Models\StockMovementModel();
+
+        return $stockMovementModel->whereIn('id', $movementIds)->findAll();
+    }
+
+    /**
+     * Get invoices with matching status
+     *
+     * @param string $status
+     * @return array
+     */
+    public function getInvoicesByMatchingStatus($status)
+    {
+        return $this->where('matching_status', $status)->findAll();
+    }
+
+    /**
+     * Get invoice with full matching details
+     *
+     * @param int $id
+     * @return array|null
+     */
+    public function getInvoiceWithMatchingDetails($id)
+    {
+        $invoice = $this->select('accounts_payable.*, vendors.vendor_name, vendors.vendor_code, users.first_name as matched_by_name')
+                        ->join('vendors', 'vendors.id = accounts_payable.vendor_id')
+                        ->join('users', 'users.id = accounts_payable.matched_by', 'left')
+                        ->find($id);
+
+        if ($invoice && !empty($invoice['stock_movement_ids'])) {
+            $invoice['related_movements'] = $this->getRelatedStockMovements($id);
+        }
+
+        return $invoice;
+    }
+
+    /**
+     * Get matching statistics
+     *
+     * @return array
+     */
+    public function getMatchingStatistics()
+    {
+        return [
+            'total_invoices' => $this->countAllResults(false),
+            'matched_count' => $this->where('matching_status', 'matched')->countAllResults(false),
+            'unmatched_count' => $this->where('matching_status', 'unmatched')->countAllResults(false),
+            'discrepancy_count' => $this->where('matching_status', 'discrepancy')->countAllResults(false),
+        ];
     }
 }

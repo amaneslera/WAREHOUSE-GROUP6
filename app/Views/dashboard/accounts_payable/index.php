@@ -19,11 +19,11 @@
     
     <div class="row">
         <div class="col-md-6">
-            <div class="card">
+                <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Invoice Processing</h5>
                     <p class="card-text">Process and review supplier invoices.</p>
-                    <a href="#" class="btn btn-primary">View Invoices</a>
+                    <a href="<?= site_url('invoice-management') ?>" class="btn btn-primary">View Invoices</a>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Payment Records</h5>
                     <p class="card-text">Record and track payments to suppliers.</p>
-                    <a href="#" class="btn btn-primary">Manage Payments</a>
+                    <a href="<?= site_url('payment-recording') ?>" class="btn btn-primary">Manage Payments</a>
                 </div>
             </div>
         </div>

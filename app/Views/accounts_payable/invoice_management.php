@@ -34,6 +34,7 @@
                             <th>Amount</th>
                             <th>Due Date</th>
                             <th>Status</th>
+                            <th>Matching</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -48,6 +49,23 @@
                                 <span class="badge bg-<?= $this->getStatusColor($invoice['status']) ?>">
                                     <?= ucfirst($invoice['status']) ?>
                                 </span>
+                            </td>
+                            <td>
+                                <?php
+                                $matchingStatus = $invoice['matching_status'] ?? 'unmatched';
+                                $badgeClass = match($matchingStatus) {
+                                    'matched' => 'success',
+                                    'discrepancy' => 'danger',
+                                    'unmatched' => 'warning',
+                                    default => 'secondary'
+                                };
+                                ?>
+                                <span class="badge bg-<?= $badgeClass ?>">
+                                    <?= ucfirst($matchingStatus) ?>
+                                </span>
+                                <?php if ($matchingStatus === 'unmatched'): ?>
+                                <br><small><a href="<?= site_url('invoice-management/match/' . $invoice['id']) ?>" class="text-decoration-none">Match</a></small>
+                                <?php endif; ?>
                             </td>
                             <td>
                                 <a href="<?= site_url('invoice-management/view/' . $invoice['id']) ?>" class="btn btn-sm btn-info">View</a>

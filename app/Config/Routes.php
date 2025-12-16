@@ -31,6 +31,9 @@ $routes->get('invoice-management', 'InvoiceManagementController::index');
 $routes->get('invoice-management/approve/(:num)', 'InvoiceManagementController::approve/$1');
 $routes->get('invoice-management/mark-paid/(:num)', 'InvoiceManagementController::markPaid/$1');
 $routes->get('invoice-management/view/(:num)', 'InvoiceManagementController::view/$1');
+$routes->get('invoice-management/match/(:num)', 'InvoiceManagementController::match/$1');
+$routes->post('invoice-management/match/(:num)', 'InvoiceManagementController::storeMatch/$1');
+$routes->post('invoice-management/flag-discrepancy/(:num)', 'InvoiceManagementController::flagDiscrepancy/$1');
 
 $routes->get('payment-recording', 'PaymentRecordingController::index');
 $routes->get('payment-recording/create', 'PaymentRecordingController::create');
@@ -173,4 +176,3 @@ $routes->group('api/reports', ['namespace' => 'App\Controllers'], function($rout
     // Warehouse Usage Dashboard
     $routes->get('warehouse/usage', 'ReportsController::warehouseUsage');
 });
-
