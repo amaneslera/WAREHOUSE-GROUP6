@@ -74,15 +74,49 @@ $routes->get('stock-movements/in', 'StockMovementController::stockInForm');
 $routes->get('stock-movements/out', 'StockMovementController::stockOutForm');
 $routes->get('stock-movements/transfer', 'StockMovementController::transferForm');
 
+// Dashboard Routes for Warehouse Manager & Staff
+$routes->get('dashboard/manager', 'Dashboard::manager');
+$routes->get('dashboard/manager/approvals', 'Dashboard::managerApprovals');
+$routes->get('dashboard/staff/scanner', 'Dashboard::staffScanner');
+
 // Stock Movement API Routes (RESTful)
 $routes->group('api/stock-movements', function($routes) {
     $routes->get('', 'StockMovementController::apiGetMovements');
+    $routes->get('(:num)', 'StockMovementController::show/$1');
     $routes->get('stats', 'StockMovementController::apiGetStats');
     $routes->get('item/(:num)', 'StockMovementController::apiGetItemHistory/$1');
     $routes->post('in', 'StockMovementController::apiStockIn');
     $routes->post('out', 'StockMovementController::apiStockOut');
     $routes->post('transfer', 'StockMovementController::apiTransfer');
     $routes->post('adjustment', 'StockMovementController::apiAdjustment');
+    $routes->post('(:num)/approve', 'StockApprovalController::approve/$1');
+    $routes->post('(:num)/reject', 'StockApprovalController::reject/$1');
+});
+
+// Barcode/Scanner API Routes
+$routes->group('api/barcode', function($routes) {
+    $routes->get('lookup', 'BarcodeController::lookup');
+    $routes->get('(:num)', 'BarcodeController::getItem/$1');
+    $routes->get('search', 'BarcodeController::search');
+    $routes->get('qr/(:num)', 'BarcodeController::generateQR/$1');
+    $routes->post('stock-in', 'BarcodeController::stockIn');
+    $routes->post('stock-out', 'BarcodeController::stockOut');
+});
+
+// Warehouse API Routes
+$routes->group('api/warehouses', function($routes) {
+    $routes->get('', 'WarehouseController::index');
+    $routes->get('(:num)', 'WarehouseController::show/$1');
+});
+
+// Stock Approval API Routes
+$routes->group('api/approvals', function($routes) {
+    $routes->get('pending', 'StockApprovalController::pending');
+    $routes->get('stats', 'StockApprovalController::stats');
+    $routes->get('history', 'StockApprovalController::history');
+    $routes->get('(:num)', 'StockApprovalController::show/$1');
+    $routes->post('(:num)/approve', 'StockApprovalController::approve/$1');
+    $routes->post('(:num)/reject', 'StockApprovalController::reject/$1');
 });
 
 // Accounts Receivable API Routes (RESTful JSON endpoints)

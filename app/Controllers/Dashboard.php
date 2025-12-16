@@ -11,6 +11,32 @@ class Dashboard extends BaseController
         }
         return view('dashboard/staff/index'); 
     }
+
+    public function staffScanner()
+    {
+        if (session('user_role') !== 'warehouse_staff') {
+            return redirect()->to('/login');
+        }
+        $warehouseModel = new \App\Models\WarehouseModel();
+        $data['warehouses'] = $warehouseModel->findAll();
+        return view('dashboard/staff/scanner', $data);
+    }
+    
+    public function manager()
+    {
+        if (session('user_role') !== 'warehouse_manager') {
+            return redirect()->to('/login');
+        }
+        return view('dashboard/manager/index');
+    }
+
+    public function managerApprovals()
+    {
+        if (session('user_role') !== 'warehouse_manager') {
+            return redirect()->to('/login');
+        }
+        return view('dashboard/manager/approvals');
+    }
     
     public function auditor()    
     { 

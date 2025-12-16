@@ -393,14 +393,20 @@ class StockMovementController extends BaseController
         // Check source item exists and has enough stock
         $sourceItem = $this->inventoryModel
             ->where('id', $data['item_id'])
-            ->where('warehouse_id', $data['from_warehouse_id'])
             ->first();
 
         if (!$sourceItem) {
             return $this->jsonResponse([
                 'status'  => 'error',
-                'message' => 'Item not found in source warehouse'
+                'message' => 'Item not found'
             ], 404);
+        }
+
+        if ($sourceItem['warehouse_id'] != $data['from_warehouse_id']) {
+            return $this->jsonResponse([
+                'status'  => 'error',
+                'message' => 'Item is not in the source warehouse'
+            ], 400);
         }
 
         if ($sourceItem['current_stock'] < $data['quantity']) {
@@ -412,7 +418,7 @@ class StockMovementController extends BaseController
             ], 400);
         }
 
-        // Check if destination item exists (same item_id in different warehouse)
+        // Check if same item exists in destination warehouse
         $destItem = $this->inventoryModel
             ->where('item_id', $sourceItem['item_id'])
             ->where('warehouse_id', $data['to_warehouse_id'])
@@ -421,67 +427,75 @@ class StockMovementController extends BaseController
         // Start transaction
         $this->db->transStart();
 
-        // Record transfer movement
-        $movementId = $this->movementModel->recordTransfer(
-            $data['item_id'],
-            $data['from_warehouse_id'],
-            $data['to_warehouse_id'],
-            $data['quantity'],
-            session('user_id'),
-            $data['reference'] ?? null,
-            $data['notes'] ?? null
-        );
+        try {
+            // Record transfer movement
+            $movementId = $this->movementModel->recordTransfer(
+                $data['item_id'],
+                $data['from_warehouse_id'],
+                $data['to_warehouse_id'],
+                $data['quantity'],
+                session('user_id'),
+                $data['reference'] ?? null,
+                $data['notes'] ?? null
+            );
 
-        if (!$movementId) {
+            if (!$movementId) {
+                throw new \Exception('Failed to record transfer movement');
+            }
+
+            // Decrease stock in source warehouse
+            $newSourceStock = $sourceItem['current_stock'] - $data['quantity'];
+            $this->inventoryModel->update($sourceItem['id'], [
+                'current_stock' => $newSourceStock,
+                'updated_at' => date('Y-m-d H:i:s')
+            ]);
+
+            // Increase stock in destination warehouse OR create new entry
+            if ($destItem) {
+                // Item exists in destination - just increase stock
+                $newDestStock = $destItem['current_stock'] + $data['quantity'];
+                $this->inventoryModel->update($destItem['id'], [
+                    'current_stock' => $newDestStock,
+                    'updated_at' => date('Y-m-d H:i:s')
+                ]);
+            } else {
+                // Item doesn't exist in destination - create new entry
+                $newEntry = [
+                    'item_id'       => $sourceItem['item_id'] . '-' . $data['to_warehouse_id'], // Make unique
+                    'item_name'     => $sourceItem['item_name'],
+                    'category_id'   => $sourceItem['category_id'],
+                    'warehouse_id'  => $data['to_warehouse_id'],
+                    'current_stock' => $data['quantity'],
+                    'minimum_stock' => $sourceItem['minimum_stock'],
+                    'unit_price'    => $sourceItem['unit_price'],
+                    'unit_of_measure' => $sourceItem['unit_of_measure'] ?? 'pcs',
+                    'description'   => $sourceItem['description'],
+                    'status'        => 'active'
+                ];
+                $this->inventoryModel->insert($newEntry);
+            }
+
+            $this->db->transComplete();
+
+            if ($this->db->transStatus() === false) {
+                throw new \Exception('Transaction failed to complete');
+            }
+
+            return $this->jsonResponse([
+                'status'          => 'success',
+                'message'         => 'Transfer recorded successfully. Awaiting manager approval.',
+                'movement_id'     => $movementId,
+                'source_stock'    => $newSourceStock,
+                'destination_stock' => $destItem ? ($destItem['current_stock'] + $data['quantity']) : $data['quantity']
+            ], 201);
+        } catch (\Exception $e) {
             $this->db->transRollback();
+            log_message('error', 'Transfer error: ' . $e->getMessage());
             return $this->jsonResponse([
                 'status'  => 'error',
-                'message' => 'Failed to record transfer',
-                'errors'  => $this->movementModel->errors()
+                'message' => 'Transfer failed: ' . $e->getMessage()
             ], 500);
         }
-
-        // Decrease stock in source warehouse
-        $newSourceStock = $sourceItem['current_stock'] - $data['quantity'];
-        $this->inventoryModel->updateStock($data['item_id'], $newSourceStock);
-
-        // Increase stock in destination warehouse OR create new entry
-        if ($destItem) {
-            $newDestStock = $destItem['current_stock'] + $data['quantity'];
-            $this->inventoryModel->updateStock($destItem['id'], $newDestStock);
-        } else {
-            // Create new inventory entry in destination warehouse
-            $newEntry = [
-                'item_id'       => $sourceItem['item_id'],
-                'item_name'     => $sourceItem['item_name'],
-                'category_id'   => $sourceItem['category_id'],
-                'warehouse_id'  => $data['to_warehouse_id'],
-                'current_stock' => $data['quantity'],
-                'minimum_stock' => $sourceItem['minimum_stock'],
-                'unit_price'    => $sourceItem['unit_price'],
-                'unit_of_measure' => $sourceItem['unit_of_measure'],
-                'description'   => $sourceItem['description'],
-                'status'        => 'active'
-            ];
-            $this->inventoryModel->insert($newEntry);
-        }
-
-        $this->db->transComplete();
-
-        if ($this->db->transStatus() === false) {
-            return $this->jsonResponse([
-                'status'  => 'error',
-                'message' => 'Transfer transaction failed'
-            ], 500);
-        }
-
-        return $this->jsonResponse([
-            'status'          => 'success',
-            'message'         => 'Transfer completed successfully',
-            'movement_id'     => $movementId,
-            'source_stock'    => $newSourceStock,
-            'destination_stock' => $destItem ? $newDestStock : $data['quantity']
-        ], 201);
     }
 
     /**

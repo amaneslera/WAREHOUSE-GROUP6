@@ -22,6 +22,9 @@ class DatabaseSeeder extends Seeder
         // 4. Seed inventory (depends on categories and warehouses)
         $this->call('InventorySeeder');
         
+        // 5. Seed stock movements (depends on inventory and users)
+        $this->call('StockMovementSeeder');
+        
         echo "Database seeding completed successfully!\n";
     }
 }

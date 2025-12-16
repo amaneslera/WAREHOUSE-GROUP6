@@ -32,7 +32,12 @@ class StockMovementModel extends Model
         'to_warehouse_id',
         'reference_number',
         'notes',
-        'performed_by'
+        'performed_by',
+        'approval_status',
+        'approved_by',
+        'rejected_by',
+        'approval_notes',
+        'rejection_reason'
     ];
 
     protected $useTimestamps = true;

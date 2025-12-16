@@ -21,3 +21,1298 @@ DEBUG - 2025-12-16 00:21:34 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-12-16 00:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-12-16 00:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-12-16 00:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 01:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:06:03 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:06:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:03 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:06:29 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:06:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:29 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:06:43 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:06:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:06:43 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:07:14 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:07:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:07:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:07:14 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:07:44 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:07:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:07:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:07:44 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:08:14 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:08:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:08:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:08:14 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:08:43 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-16 03:08:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+[Method: GET, Route: api/approvals/pending]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:08:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:08:43 --> [Caused by] mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = \'pending\'
+ORDER BY `sm`.`created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, `u`.`user_fname`, `u`.`user_lname`, `i`.`item_name`, `i`.`current_stock`
+FROM (`stock_movements`, `stock_movements` `sm`)
+LEFT JOIN `users` `u` ON `u`.`user_id` = `sm`.`recorded_by`
+JOIN `inventory` `i` ON `i`.`item_id` = `sm`.`item_id`
+WHERE `sm`.`approval_status` = :sm.approval_status:
+ORDER BY `sm`.`created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\StockApprovalController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:09:14 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:09:14 --> Pending approvals error: Table 'warehouse_db.inventory' doesn't exist
+DEBUG - 2025-12-16 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:09:44 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:09:44 --> Pending approvals error: Table 'warehouse_db.inventory' doesn't exist
+DEBUG - 2025-12-16 03:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:10:24 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:10:24 --> Pending approvals error: Table 'warehouse_db.inventory' doesn't exist
+DEBUG - 2025-12-16 03:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:10:38 --> mysqli_sql_exception: Table 'warehouse_db.inventory' doesn't exist in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:10:38 --> Pending approvals error: Table 'warehouse_db.inventory' doesn't exist
+DEBUG - 2025-12-16 03:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:14:52 --> mysqli_sql_exception: Unknown column 'u.user_fname' in 'field list' in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:14:52 --> Pending approvals error: Unknown column 'u.user_fname' in 'field list'
+DEBUG - 2025-12-16 03:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:15:03 --> mysqli_sql_exception: Unknown column 'u.user_fname' in 'field list' in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sm`.*, ...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sm`.*, ...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sm`.*, ...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sm`.*, ...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->pending()
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-16 03:15:03 --> Pending approvals error: Unknown column 'u.user_fname' in 'field list'
+DEBUG - 2025-12-16 03:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:23:13 --> Approval error: There is no data to update.
+DEBUG - 2025-12-16 03:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-16 03:25:05 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: api/approvals/stats]
+in APPPATH\Controllers\StockApprovalController.php on line 186.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Controllers\\StockApprovalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StockApprovalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StockApprovalController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\StockApprovalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:25:05 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: api/approvals/pending]
+in APPPATH\Controllers\StockApprovalController.php on line 186.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Controllers\\StockApprovalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StockApprovalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StockApprovalController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\StockApprovalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+CRITICAL - 2025-12-16 03:25:50 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: api/approvals/stats]
+in APPPATH\Controllers\StockApprovalController.php on line 182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Controllers\\StockApprovalController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\StockApprovalController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\StockApprovalController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\StockApprovalController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 03:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 03:26:38 --> Approval error: There is no data to update.
+DEBUG - 2025-12-16 03:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 03:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 05:09:46 --> Approval error: There is no data to update.
+DEBUG - 2025-12-16 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-16 05:25:54 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard/staff/scanner]
+in APPPATH\Views\dashboard\staff\scanner.php on line 624.
+ 1 APPPATH\Views\dashboard\staff\scanner.php(624): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Views\\dashboard\\staff\\scanner.php', 624)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Views\\dashboard\\staff\\scanner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/staff/scanner', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard/staff/scanner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->staffScanner()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-16 05:26:35 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: dashboard/staff/scanner]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(433): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(39): CodeIgniter\HTTP\SiteURI->siteUrl(null, null, null)
+ 3 APPPATH\Views\dashboard\staff\scanner.php(821): site_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\app\\Views\\dashboard\\staff\\scanner.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/staff/scanner', [], true)
+ 7 APPPATH\Controllers\Dashboard.php(22): view('dashboard/staff/scanner', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->staffScanner()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 FCPATH\public\index.php(2): require_once('C:\\xampp\\htdocs\\WAREHOUSE-GROUP6\\index.php')
+DEBUG - 2025-12-16 05:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-16 05:39:38 --> Approve request received for ID: 8
+INFO - 2025-12-16 05:39:38 --> Request body: {"approval_notes":""}
+INFO - 2025-12-16 05:39:38 --> Parsed data: {"approval_notes":""}
+ERROR - 2025-12-16 05:39:39 --> Approval error: There is no data to update.
+DEBUG - 2025-12-16 05:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-16 05:41:55 --> mysqli_sql_exception: Duplicate entry 'INV002' for key 'item_id' in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockMovementController.php(466): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockMovementController->apiTransfer()
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockMovementController))
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+DEBUG - 2025-12-16 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-16 05:44:33 --> Approve request received for ID: 10
+INFO - 2025-12-16 05:44:33 --> Request body: {"approval_notes":""}
+INFO - 2025-12-16 05:44:33 --> Parsed data: {"approval_notes":""}
+ERROR - 2025-12-16 05:44:33 --> mysqli_sql_exception: Unknown column 'approved_at' in 'field list' in C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `stock_m...', 0)
+#1 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `stock_m...')
+#2 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `stock_m...')
+#3 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `stock_m...', Array, false)
+#4 C:\xampp\htdocs\WAREHOUSE-GROUP6\app\Controllers\StockApprovalController.php(128): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(933): App\Controllers\StockApprovalController->approve('10')
+#6 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockApprovalController))
+#7 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WAREHOUSE-GROUP6\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\WAREHOUSE-GROUP6\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\WAREHOUSE-GROUP6\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-12-16 05:44:33 --> Approval error: Transaction failed
+DEBUG - 2025-12-16 05:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-16 05:45:03 --> Approve request received for ID: 10
+INFO - 2025-12-16 05:45:03 --> Request body: {"approval_notes":""}
+INFO - 2025-12-16 05:45:03 --> Parsed data: {"approval_notes":""}
+DEBUG - 2025-12-16 05:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-16 05:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
