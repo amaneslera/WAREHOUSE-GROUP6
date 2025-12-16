@@ -26,6 +26,12 @@ $routes->get('dashboard/arclerk', 'Dashboard::arclerk');
 $routes->get('dashboard/it', 'Dashboard::it');
 $routes->get('dashboard/top', 'Dashboard::top');
 
+// Accounts Receivable Clerk Routes
+$routes->get('arclerk/invoices', 'AccountsReceivableController::indexView');
+$routes->get('arclerk/create-invoice', 'AccountsReceivableController::createView');
+$routes->get('arclerk/payments', 'AccountsReceivableController::paymentsView');
+$routes->get('arclerk/reports', 'AccountsReceivableController::reportsView');
+
 // Accounts Payable Routes
 $routes->get('invoice-management', 'InvoiceManagementController::index');
 $routes->get('invoice-management/approve/(:num)', 'InvoiceManagementController::approve/$1');

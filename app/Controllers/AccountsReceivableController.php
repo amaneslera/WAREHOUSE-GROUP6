@@ -687,4 +687,64 @@ class AccountsReceivableController extends BaseController
             ->setStatusCode($statusCode)
             ->setJSON($data);
     }
+
+    // ========================================
+    // WEB VIEW METHODS
+    // ========================================
+
+    /**
+     * Display AR Clerk dashboard
+     * 
+     * @return string
+     */
+    public function indexView()
+    {
+        if (!$this->checkPermission(['accounts_receivable_clerk'])) {
+            return redirect()->to('/');
+        }
+        
+        return view('dashboard/accounts_receivable/index');
+    }
+
+    /**
+     * Display create invoice form
+     * 
+     * @return string
+     */
+    public function createView()
+    {
+        if (!$this->checkPermission(['accounts_receivable_clerk'])) {
+            return redirect()->to('/');
+        }
+        
+        return view('dashboard/accounts_receivable/create');
+    }
+
+    /**
+     * Display payment recording form
+     * 
+     * @return string
+     */
+    public function paymentsView()
+    {
+        if (!$this->checkPermission(['accounts_receivable_clerk'])) {
+            return redirect()->to('/');
+        }
+        
+        return view('dashboard/accounts_receivable/payments');
+    }
+
+    /**
+     * Display reports page
+     * 
+     * @return string
+     */
+    public function reportsView()
+    {
+        if (!$this->checkPermission(['accounts_receivable_clerk'])) {
+            return redirect()->to('/');
+        }
+        
+        return view('dashboard/accounts_receivable/reports');
+    }
 }
