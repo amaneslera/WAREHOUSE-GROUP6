@@ -44,17 +44,21 @@ $routes->get('procurement/pos/(:num)', 'Procurement::viewPO/$1');
 $routes->get('procurement/prs/(:num)/create-po', 'Procurement::createPOFromPR/$1');
 $routes->post('procurement/prs/(:num)/create-po', 'Procurement::storePOFromPR/$1');
 
-// Top Management approvals
+$routes->get('procurement/vendors', 'ProcurementVendors::index');
+$routes->get('procurement/vendors/create', 'ProcurementVendors::create');
+$routes->post('procurement/vendors/create', 'ProcurementVendors::store');
+$routes->get('procurement/vendors/edit/(:num)', 'ProcurementVendors::edit/$1');
+$routes->post('procurement/vendors/edit/(:num)', 'ProcurementVendors::update/$1');
+$routes->post('procurement/vendors/(:num)/status', 'ProcurementVendors::updateStatus/$1');
+
 $routes->get('top-management/pr-approvals', 'TopManagementApprovals::purchaseRequests');
 $routes->post('top-management/pr-approvals/(:num)/approve', 'TopManagementApprovals::approvePR/$1');
 $routes->post('top-management/pr-approvals/(:num)/reject', 'TopManagementApprovals::rejectPR/$1');
 
-// Top Management PO approvals
 $routes->get('top-management/po-approvals', 'TopManagementPOApprovals::purchaseOrders');
 $routes->post('top-management/po-approvals/(:num)/approve', 'TopManagementPOApprovals::approvePO/$1');
 $routes->post('top-management/po-approvals/(:num)/reject', 'TopManagementPOApprovals::rejectPO/$1');
 
-// Top Management dashboard + exports
 $routes->get('top-management', 'TopManagementDashboard::index');
 $routes->get('top-management/kpis', 'TopManagementDashboard::kpis');
 $routes->get('top-management/inventory-summary', 'TopManagementDashboard::inventorySummary');

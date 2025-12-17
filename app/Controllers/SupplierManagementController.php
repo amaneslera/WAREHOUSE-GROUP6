@@ -72,7 +72,7 @@ class SupplierManagementController extends BaseController
 
         $rules = [
             'vendor_code' => 'required|is_unique[vendors.vendor_code,id,' . $id . ']',
-            'vendor_name' => 'required|min_length[3]|max_length[255]',
+            'vendor_name' => 'required|min_length[3]|max_length[255]|is_unique[vendors.vendor_name,id,' . $id . ']',
             'email' => 'permit_empty|valid_email',
             'status' => 'required|in_list[active,inactive,blocked]'
         ];

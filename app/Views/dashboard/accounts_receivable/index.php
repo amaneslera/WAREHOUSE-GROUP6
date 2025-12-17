@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accounts Receivable Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <style>
+        body { background-color: #f8f9fa; }
+        .sidebar { background-color: #2c3e50; min-height: 100vh; }
+        .sidebar a { color: #ecf0f1; padding: 12px 20px; display: block; border-left: 3px solid transparent; transition: all 0.3s; text-decoration: none; }
+        .sidebar a:hover, .sidebar a.active { background-color: #34495e; border-left-color: #3498db; color: #fff; }
+        .top-navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         .stat-card {
             border-left: 4px solid;
             transition: transform 0.2s;
@@ -30,49 +36,48 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="<?= site_url('dashboard/arclerk') ?>">
-                <i class="bi bi-receipt"></i> Accounts Receivable
+<div class="top-navbar bg-white py-3 px-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="mb-0"><i class="fas fa-receipt text-primary"></i> Accounts Receivable Dashboard</h2>
+        <div>
+            <span class="me-3"><i class="fas fa-user"></i> <?= session('user_fname') . ' ' . session('user_lname') ?></span>
+            <span class="badge bg-success me-3"><?= session('user_role') ?></span>
+            <a href="<?= site_url('logout') ?>" class="btn btn-sm btn-outline-danger"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 sidebar d-none d-md-block">
+            <div class="p-3 text-center text-white mb-3">
+                <h5><i class="fas fa-bars"></i> Navigation</h5>
+            </div>
+            <a href="<?= site_url('dashboard/arclerk') ?>" class="active">
+                <i class="fas fa-file-invoice"></i> Invoices
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<?= site_url('arclerk/invoices') ?>">Invoices</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('arclerk/create-invoice') ?>">New Invoice</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('arclerk/payments') ?>">Record Payment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('arclerk/reports') ?>">Reports</a>
-                    </li>
-                </ul>
-                <div class="d-flex align-items-center">
-                    <span class="navbar-text me-3">
-                        <i class="bi bi-person-circle"></i> 
-                        <?= session('user_fname') . ' ' . session('user_lname') ?>
-                    </span>
-                    <a href="<?= site_url('logout') ?>" class="btn btn-outline-light btn-sm">
-                        <i class="bi bi-box-arrow-right"></i> Logout
-                    </a>
+            <a href="<?= site_url('arclerk/create-invoice') ?>">
+                <i class="fas fa-plus-circle"></i> New Invoice
+            </a>
+            <a href="<?= site_url('arclerk/payments') ?>">
+                <i class="fas fa-cash-register"></i> Record Payment
+            </a>
+            <a href="<?= site_url('arclerk/reports') ?>">
+                <i class="fas fa-chart-bar"></i> Reports
+            </a>
+            <hr class="bg-secondary">
+            <a href="<?= site_url('logout') ?>" class="text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+
+        <div class="col-md-10 p-4">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2><i class="bi bi-speedometer2"></i> Accounts Receivable Dashboard</h2>
+                    <p class="text-muted">Issues billing to clients, records payments received, and follows up on unpaid dues.</p>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid mt-4">
-        <div class="row mb-4">
-            <div class="col-12">
-                <h2><i class="bi bi-speedometer2"></i> Accounts Receivable Dashboard</h2>
-                <p class="text-muted">Issues billing to clients, records payments received, and follows up on unpaid dues.</p>
-            </div>
-        </div>
 
         <!-- Statistics Cards -->
         <div class="row mb-4" id="statsCards">
@@ -205,7 +210,9 @@
                 <nav id="pagination" class="mt-3"></nav>
             </div>
         </div>
+        </div>
     </div>
+</div>
 
     <!-- Invoice Detail Modal -->
     <div class="modal fade" id="invoiceModal" tabindex="-1">

@@ -47,6 +47,11 @@
                     </button>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('dashboard/manager/tasks') ?>">
+                        <i class="fas fa-file-invoice"></i> Incoming Purchase Orders
+                    </a>
+                </li>
+                <li class="nav-item">
                     <button class="nav-link" id="inventory-tab" data-bs-toggle="tab" data-bs-target="#inventory" type="button" role="tab">
                         <i class="fas fa-boxes"></i> Inventory
                     </button>

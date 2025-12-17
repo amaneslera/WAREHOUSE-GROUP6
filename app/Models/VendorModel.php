@@ -29,7 +29,8 @@ class VendorModel extends Model
         'address',
         'tax_id',
         'payment_terms',
-        'status'
+        'status',
+        'created_by'
     ];
 
     protected $useTimestamps = true;

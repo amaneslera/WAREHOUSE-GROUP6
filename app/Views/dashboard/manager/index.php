@@ -46,6 +46,9 @@
             <a href="<?= site_url('dashboard/manager/approvals') ?>">
                 <i class="fas fa-check-square"></i> Approvals
             </a>
+            <a href="<?= site_url('dashboard/manager/tasks') ?>">
+                <i class="fas fa-file-invoice"></i> Incoming Purchase Orders
+            </a>
             <a href="<?= site_url('inventory') ?>">
                 <i class="fas fa-boxes"></i> Inventory
             </a>

@@ -25,13 +25,7 @@ class TopManagementDashboard extends BaseController
 
     private function getPendingPoCount(): int
     {
-        $db = \Config\Database::connect();
-        if (! $db->fieldExists('po_approval_status', 'purchase_orders')) {
-            return 0;
-        }
-
-        $poModel = new PurchaseOrderModel();
-        return (int) $poModel->where('po_approval_status', 'pending')->countAllResults(false);
+        return 0;
     }
 
     public function index()

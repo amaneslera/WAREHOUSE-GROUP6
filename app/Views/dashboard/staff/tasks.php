@@ -97,7 +97,7 @@
                                                 <button class="btn btn-primary w-100" type="button" onclick="receiveForTask(<?= (int) ($t['id'] ?? 0) ?>, '<?= esc($t['po_number'] ?? '') ?>', <?= (int) ($t['warehouse_id'] ?? 0) ?>)">Submit</button>
                                             </div>
                                         </div>
-                                        <small class="text-muted">This will create a Stock IN record (pending manager approval) with PO reference.</small>
+                                        <small class="text-muted">This will record a Stock IN for the PO reference.</small>
                                         <div class="mt-2" id="msg_<?= esc($t['id']) ?>"></div>
                                     </div>
                                 </td>
@@ -131,28 +131,12 @@ async function receiveForTask(taskId, poNumber, warehouseId) {
     }
 
     try {
-        const invRes = await fetch(API_BASE + '/inventory');
-        const inv = await invRes.json();
-        if (!inv || inv.status !== 'success') {
-            msg.innerHTML = '<div class="alert alert-danger">Unable to load inventory for lookup.</div>';
-            return;
-        }
-
-        const item = inv.data.find(i => i.item_id == barcode || i.barcode == barcode || i.id == barcode);
-        if (!item) {
-            msg.innerHTML = '<div class="alert alert-warning">Item not found.</div>';
-            return;
-        }
-
         const payload = {
-            item_id: item.id,
-            warehouse_id: warehouseId || item.warehouse_id,
-            quantity: qty,
-            reference: poNumber,
-            notes: 'Receiving Task #' + taskId
+            barcode: barcode,
+            quantity: qty
         };
 
-        const response = await fetch(API_BASE + '/stock-movements/in', {
+        const response = await fetch(API_BASE + '/warehouse-tasks/' + taskId + '/receive', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
@@ -160,7 +144,7 @@ async function receiveForTask(taskId, poNumber, warehouseId) {
 
         const result = await response.json();
         if (result && result.status === 'success') {
-            msg.innerHTML = '<div class="alert alert-success">Stock IN recorded. Awaiting manager approval.</div>';
+            msg.innerHTML = '<div class="alert alert-success">Stock IN recorded.</div>';
             document.getElementById('barcode_' + taskId).value = '';
             document.getElementById('qty_' + taskId).value = '1';
         } else {

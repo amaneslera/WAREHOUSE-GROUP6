@@ -44,6 +44,9 @@
             <a href="<?= site_url('procurement/pos') ?>" class="<?= (isset($active) && $active === 'pos') ? 'active' : '' ?>">
                 <i class="fas fa-file-invoice"></i> Purchase Orders
             </a>
+            <a href="<?= site_url('procurement/vendors') ?>" class="<?= (isset($active) && $active === 'vendors') ? 'active' : '' ?>">
+                <i class="fas fa-truck"></i> Vendors
+            </a>
             <hr class="bg-secondary">
             <a href="<?= site_url('logout') ?>" class="text-danger">
                 <i class="fas fa-sign-out-alt"></i> Logout

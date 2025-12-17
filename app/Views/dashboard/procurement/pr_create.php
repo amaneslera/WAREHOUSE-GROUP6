@@ -54,10 +54,10 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <input type="number" name="quantity[]" class="form-control form-control-sm" min="0" value="0">
+                                        <input type="number" name="quantity[<?= esc($it['id']) ?>]" class="form-control form-control-sm" min="0" value="0">
                                     </td>
                                     <td>
-                                        <input type="text" name="item_notes[]" class="form-control form-control-sm" placeholder="Optional">
+                                        <input type="text" name="item_notes[<?= esc($it['id']) ?>]" class="form-control form-control-sm" placeholder="Optional">
                                     </td>
                                 </tr>
                             <?php endforeach; ?>

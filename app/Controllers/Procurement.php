@@ -61,14 +61,26 @@ class Procurement extends BaseController
 
     private function computeReceivingForPO(string $poNumber): array
     {
+        $hasApproval = $this->db->fieldExists('approval_status', 'stock_movements');
+
         $received = $this->db->table('stock_movements')
             ->select('inventory_item_id, SUM(quantity) as received_qty')
             ->where('movement_type', 'in')
-            ->where('approval_status', 'approved')
             ->where('reference_number', $poNumber)
             ->groupBy('inventory_item_id')
             ->get()
             ->getResultArray();
+
+        if ($hasApproval) {
+            $received = $this->db->table('stock_movements')
+                ->select('inventory_item_id, SUM(quantity) as received_qty')
+                ->where('movement_type', 'in')
+                ->where('approval_status', 'approved')
+                ->where('reference_number', $poNumber)
+                ->groupBy('inventory_item_id')
+                ->get()
+                ->getResultArray();
+        }
 
         $map = [];
         foreach ($received as $r) {
@@ -206,19 +218,28 @@ class Procurement extends BaseController
         }
 
         $itemIds = (array) $this->request->getPost('inventory_item_id');
-        $qtys = (array) $this->request->getPost('quantity');
-        $notes = (array) $this->request->getPost('item_notes');
+        $qtysRaw = $this->request->getPost('quantity');
+        $notesRaw = $this->request->getPost('item_notes');
+
+        $qtys = is_array($qtysRaw) ? $qtysRaw : [];
+        $notes = is_array($notesRaw) ? $notesRaw : [];
 
         $rows = [];
         foreach ($itemIds as $i => $itemId) {
-            $q = (int) ($qtys[$i] ?? 0);
+            $q = 0;
+            if (isset($qtys[$itemId])) {
+                $q = (int) $qtys[$itemId];
+            } else {
+                $q = (int) ($qtys[$i] ?? 0);
+            }
+
             if ((int) $itemId <= 0 || $q <= 0) {
                 continue;
             }
             $rows[] = [
                 'inventory_item_id' => (int) $itemId,
                 'quantity' => $q,
-                'notes' => $notes[$i] ?? null,
+                'notes' => $notes[$itemId] ?? ($notes[$i] ?? null),
             ];
         }
 
@@ -420,16 +441,22 @@ class Procurement extends BaseController
 
         $this->db->transStart();
 
-        $poId = $poModel->insert([
+        $poData = [
             'po_number' => $poNumber,
             'purchase_request_id' => (int) $prId,
             'vendor_id' => (int) $this->request->getPost('vendor_id'),
             'warehouse_id' => (int) $this->request->getPost('warehouse_id'),
             'status' => 'pending',
-            'po_approval_status' => 'pending',
             'expected_delivery_date' => $this->request->getPost('expected_delivery_date') ?: null,
             'created_by' => (int) session('user_id'),
-        ], true);
+
+        ];
+
+        if ($this->db->fieldExists('po_approval_status', 'purchase_orders')) {
+            $poData['po_approval_status'] = 'approved';
+        }
+
+        $poId = $poModel->insert($poData, true);
 
         $prItems = $prItemModel->where('purchase_request_id', $prId)->findAll();
         foreach ($prItems as $pri) {
@@ -442,6 +469,7 @@ class Procurement extends BaseController
         }
 
         $auditModel->logAction('po_create', 'procurement', (int) $poId, null, ['po_number' => $poNumber, 'pr_id' => (int) $prId], 'Created PO ' . $poNumber);
+        $auditModel->logAction('po_created', 'procurement', (int) $poId, null, ['po_number' => $poNumber, 'pr_id' => (int) $prId], 'Created PO ' . $poNumber);
 
         $this->db->transComplete();
 

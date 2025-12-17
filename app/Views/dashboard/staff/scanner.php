@@ -45,6 +45,11 @@
                     </button>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('dashboard/staff/tasks') ?>">
+                        <i class="fas fa-clipboard-list"></i> My Tasks
+                    </a>
+                </li>
+                <li class="nav-item">
                     <button class="nav-link" id="scanner-tab" data-bs-toggle="tab" data-bs-target="#scanner" type="button" role="tab">
                         <i class="fas fa-barcode"></i> Scanner
                     </button>

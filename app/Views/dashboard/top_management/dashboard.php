@@ -41,9 +41,6 @@
             <a href="<?= site_url('top-management/pr-approvals') ?>">
                 <i class="fas fa-file-signature"></i> PR Approvals
             </a>
-            <a href="<?= site_url('top-management/po-approvals') ?>">
-                <i class="fas fa-file-invoice"></i> PO Approvals
-            </a>
             <a href="<?= site_url('top-management/kpis') ?>">
                 <i class="fas fa-gauge"></i> KPIs
             </a>
@@ -72,13 +69,6 @@
                         <h6 class="text-uppercase">Pending PR Approvals</h6>
                         <h3><?= esc($pendingPrCount ?? 0) ?></h3>
                         <small>Submitted PRs</small>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="dashboard-widget stat-card bg-info text-white">
-                        <h6 class="text-uppercase">Pending PO Approvals</h6>
-                        <h3><?= esc($pendingPoCount ?? 0) ?></h3>
-                        <small>Awaiting decision</small>
                     </div>
                 </div>
                 <div class="col-md-3">

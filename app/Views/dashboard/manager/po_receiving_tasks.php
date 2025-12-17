@@ -18,7 +18,7 @@
 <body>
 <div class="top-navbar bg-white py-3 px-4">
     <div class="d-flex justify-content-between align-items-center">
-        <h2 class="mb-0"><i class="fas fa-clipboard-check text-primary"></i> Receiving Tasks</h2>
+        <h2 class="mb-0"><i class="fas fa-clipboard-check text-primary"></i> Incoming Purchase Orders</h2>
         <div>
             <span class="me-3"><i class="fas fa-user"></i> <?= session('user_fname') . ' ' . session('user_lname') ?></span>
             <span class="badge bg-success me-3"><?= session('user_role') ?></span>
@@ -63,7 +63,7 @@
             <?php endif; ?>
 
             <div class="dashboard-widget">
-                <h5 class="mb-3"><i class="fas fa-file-invoice"></i> Top-Approved Purchase Orders</h5>
+                <h5 class="mb-3"><i class="fas fa-file-invoice"></i> Open Purchase Orders</h5>
                 <div class="table-responsive">
                     <table class="table table-hover align-middle">
                         <thead class="table-dark">
@@ -72,7 +72,7 @@
                                 <th>Vendor</th>
                                 <th>Warehouse</th>
                                 <th>Expected</th>
-                                <th>Task</th>
+                                <th>Items</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -85,24 +85,30 @@
                                         <td><?= esc($po['warehouse_name'] ?? '') ?></td>
                                         <td><?= esc($po['expected_delivery_date'] ?? '-') ?></td>
                                         <td>
-                                            <?php if (! empty($po['task_id'])): ?>
-                                                <span class="badge bg-info"><?= esc($po['task_status'] ?? '') ?></span>
+                                            <?php $poId = (int) ($po['id'] ?? 0); ?>
+                                            <?php $items = $itemsByPo[$poId] ?? []; ?>
+                                            <?php if (! empty($items)): ?>
+                                                <ul class="mb-0">
+                                                    <?php foreach ($items as $it): ?>
+                                                        <li>
+                                                            <?= esc($it['item_name'] ?? '') ?>
+                                                            - Qty: <?= esc($it['quantity'] ?? '') ?>
+                                                            <?= esc($it['unit_of_measure'] ?? '') ?>
+                                                        </li>
+                                                    <?php endforeach; ?>
+                                                </ul>
                                             <?php else: ?>
-                                                <span class="badge bg-secondary">None</span>
+                                                <span class="text-muted">No items</span>
                                             <?php endif; ?>
                                         </td>
                                         <td>
-                                            <?php if (empty($po['task_id'])): ?>
-                                                <a class="btn btn-sm btn-primary" href="<?= site_url('dashboard/manager/tasks/' . ($po['id'] ?? 0) . '/create') ?>">Create Task</a>
-                                            <?php else: ?>
-                                                <span class="text-muted">Task already created</span>
-                                            <?php endif; ?>
+                                            <a class="btn btn-sm btn-primary" href="<?= site_url('dashboard/manager/tasks/' . ($po['id'] ?? 0) . '/create') ?>">Create Task</a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
                             <?php else: ?>
                                 <tr>
-                                    <td colspan="6" class="text-center text-muted py-4">No Top-Approved POs found.</td>
+                                    <td colspan="6" class="text-center text-muted py-4">No open POs found.</td>
                                 </tr>
                             <?php endif; ?>
                         </tbody>
