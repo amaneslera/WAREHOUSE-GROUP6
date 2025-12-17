@@ -8,11 +8,12 @@ use CodeIgniter\Controller;
 class AUTH extends Controller
 {
     protected $builder;
+    protected $db;
 
     public function __construct()
     {
-        $db = \Config\Database::connect();
-        $this->builder = $db->table('users');
+        $this->db = \Config\Database::connect();
+        $this->builder = $this->db->table('users');
     }
 
     public function login()
@@ -45,6 +46,17 @@ class AUTH extends Controller
                 if (!password_verify($password, $user['password'])) {
                     session()->setFlashdata('error', 'Invalid email or password.');
                     return view('auth/login', $data);
+                }
+
+                if ($this->db->fieldExists('is_active', 'users') && isset($user['is_active']) && (int) $user['is_active'] === 0) {
+                    session()->setFlashdata('error', 'Account is deactivated. Please contact the administrator.');
+                    return view('auth/login', $data);
+                }
+
+                if ($this->db->fieldExists('last_login_at', 'users')) {
+                    $this->builder->where('id', $user['id'])->update([
+                        'last_login_at' => date('Y-m-d H:i:s'),
+                    ]);
                 }
 
                 // Login successful - set session data

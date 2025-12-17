@@ -50,6 +50,8 @@ class AuditLogModel extends Model
      */
     public function logAction($action, $module, $recordId = null, $oldValues = null, $newValues = null, $description = null)
     {
+        $request = service('request');
+
         $data = [
             'user_id' => session('user_id'),
             'action' => $action,
@@ -58,11 +60,14 @@ class AuditLogModel extends Model
             'old_values' => $oldValues ? json_encode($oldValues) : null,
             'new_values' => $newValues ? json_encode($newValues) : null,
             'description' => $description,
-            'ip_address' => $this->request ? $this->request->getIPAddress() : null,
-            'user_agent' => $this->request ? $this->request->getUserAgent()->getAgentString() : null
+            'ip_address' => $request ? $request->getIPAddress() : null,
+            'user_agent' => $request ? $request->getUserAgent()->getAgentString() : null
         ];
 
-        return $this->insert($data);
+        $data['created_at'] = date('Y-m-d H:i:s');
+
+        $db = \Config\Database::connect();
+        return (bool) $db->table($this->table)->insert($data);
     }
 
     /**

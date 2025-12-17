@@ -48,10 +48,11 @@ class Dashboard extends BaseController
     
     public function procurement()
     { 
-        if (session('user_role') !== 'procurement_officer') {
+        $role = session('user_role');
+        if ($role !== 'procurement_officer' && $role !== 'PROCUREMENT_OFFICER') {
             return redirect()->to('/login');
         }
-        return view('dashboard/procurement/index'); 
+        return redirect()->to('/procurement'); 
     }
     
     public function apclerk()    
@@ -75,7 +76,7 @@ class Dashboard extends BaseController
         if (session('user_role') !== 'it_administrator') {
             return redirect()->to('/login');
         }
-        return view('dashboard/it_admin/index'); 
+        return redirect()->to('/it-admin'); 
     }
     
     public function top()        
@@ -83,6 +84,6 @@ class Dashboard extends BaseController
         if (session('user_role') !== 'top_management') {
             return redirect()->to('/login');
         }
-        return view('dashboard/top_management/index'); 
+        return redirect()->to('/top-management'); 
     }
 }

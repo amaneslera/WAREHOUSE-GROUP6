@@ -26,11 +26,58 @@ $routes->get('dashboard/arclerk', 'Dashboard::arclerk');
 $routes->get('dashboard/it', 'Dashboard::it');
 $routes->get('dashboard/top', 'Dashboard::top');
 
+<<<<<<< Updated upstream
 // Accounts Receivable Clerk Routes
 $routes->get('arclerk/invoices', 'AccountsReceivableController::indexView');
 $routes->get('arclerk/create-invoice', 'AccountsReceivableController::createView');
 $routes->get('arclerk/payments', 'AccountsReceivableController::paymentsView');
 $routes->get('arclerk/reports', 'AccountsReceivableController::reportsView');
+=======
+// Procurement module
+$routes->get('procurement', 'Procurement::index');
+$routes->get('procurement/prs', 'Procurement::purchaseRequests');
+$routes->get('procurement/prs/create', 'Procurement::createPR');
+$routes->post('procurement/prs/create', 'Procurement::storePR');
+$routes->get('procurement/prs/(:num)', 'Procurement::viewPR/$1');
+$routes->post('procurement/prs/(:num)/submit', 'Procurement::submitPR/$1');
+$routes->get('procurement/pos', 'Procurement::purchaseOrders');
+$routes->get('procurement/pos/(:num)', 'Procurement::viewPO/$1');
+$routes->get('procurement/prs/(:num)/create-po', 'Procurement::createPOFromPR/$1');
+$routes->post('procurement/prs/(:num)/create-po', 'Procurement::storePOFromPR/$1');
+
+// Top Management approvals
+$routes->get('top-management/pr-approvals', 'TopManagementApprovals::purchaseRequests');
+$routes->post('top-management/pr-approvals/(:num)/approve', 'TopManagementApprovals::approvePR/$1');
+$routes->post('top-management/pr-approvals/(:num)/reject', 'TopManagementApprovals::rejectPR/$1');
+
+// Top Management PO approvals
+$routes->get('top-management/po-approvals', 'TopManagementPOApprovals::purchaseOrders');
+$routes->post('top-management/po-approvals/(:num)/approve', 'TopManagementPOApprovals::approvePO/$1');
+$routes->post('top-management/po-approvals/(:num)/reject', 'TopManagementPOApprovals::rejectPO/$1');
+
+// Top Management dashboard + exports
+$routes->get('top-management', 'TopManagementDashboard::index');
+$routes->get('top-management/kpis', 'TopManagementDashboard::kpis');
+$routes->get('top-management/inventory-summary', 'TopManagementDashboard::inventorySummary');
+$routes->get('top-management/financial-summary', 'TopManagementDashboard::financialSummary');
+$routes->get('top-management/export/warehouse-summary.csv', 'TopManagementDashboard::exportWarehouseSummaryCsv');
+$routes->get('top-management/audit-logs', 'TopManagementAuditLogs::index');
+
+// IT Admin module
+$routes->get('it-admin', 'ITAdmin::index');
+$routes->get('it-admin/users', 'ITAdmin::users');
+$routes->get('it-admin/users/create', 'ITAdmin::createUser');
+$routes->post('it-admin/users/create', 'ITAdmin::storeUser');
+$routes->get('it-admin/users/(:num)/edit', 'ITAdmin::editUser/$1');
+$routes->post('it-admin/users/(:num)/edit', 'ITAdmin::updateUser/$1');
+$routes->post('it-admin/users/(:num)/status', 'ITAdmin::updateStatus/$1');
+$routes->post('it-admin/users/(:num)/role', 'ITAdmin::updateRole/$1');
+$routes->get('it-admin/audit-logs', 'ITAdmin::auditLogs');
+$routes->get('it-admin/backups', 'ITAdmin::backups');
+$routes->post('it-admin/backups/run', 'ITAdmin::runBackup');
+$routes->get('it-admin/backups/download/(:any)', 'ITAdmin::downloadBackup/$1');
+$routes->get('it-admin/system-status', 'ITAdmin::systemStatus');
+>>>>>>> Stashed changes
 
 // Accounts Payable Routes
 $routes->get('invoice-management', 'InvoiceManagementController::index');
@@ -86,7 +133,13 @@ $routes->get('stock-movements/transfer', 'StockMovementController::transferForm'
 // Dashboard Routes for Warehouse Manager & Staff
 $routes->get('dashboard/manager', 'Dashboard::manager');
 $routes->get('dashboard/manager/approvals', 'Dashboard::managerApprovals');
+$routes->get('dashboard/manager/tasks', 'WarehouseTasks::managerIndex');
+$routes->get('dashboard/manager/tasks/(:num)/create', 'WarehouseTasks::createTask/$1');
+$routes->post('dashboard/manager/tasks/(:num)/create', 'WarehouseTasks::storeTask/$1');
 $routes->get('dashboard/staff/scanner', 'Dashboard::staffScanner');
+$routes->get('dashboard/staff/tasks', 'WarehouseTasks::staffIndex');
+$routes->post('dashboard/staff/tasks/(:num)/start', 'WarehouseTasks::start/$1');
+$routes->post('dashboard/staff/tasks/(:num)/complete', 'WarehouseTasks::complete/$1');
 
 // Stock Movement API Routes (RESTful)
 $routes->group('api/stock-movements', function($routes) {

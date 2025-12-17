@@ -10,7 +10,7 @@ class UserModel extends Model
     protected $primaryKey = 'id';
 
     protected $allowedFields = [
-        'last_name', 'first_name', 'middle_name', 'email', 'password', 'role', 'created_at', 'updated_at'
+        'last_name', 'first_name', 'middle_name', 'email', 'password', 'role', 'is_active', 'last_login_at', 'created_at', 'updated_at'
     ];
     protected $useTimestamps = true; 
 
