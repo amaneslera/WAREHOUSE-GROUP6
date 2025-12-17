@@ -26,13 +26,12 @@ $routes->get('dashboard/arclerk', 'Dashboard::arclerk');
 $routes->get('dashboard/it', 'Dashboard::it');
 $routes->get('dashboard/top', 'Dashboard::top');
 
-<<<<<<< Updated upstream
 // Accounts Receivable Clerk Routes
 $routes->get('arclerk/invoices', 'AccountsReceivableController::indexView');
 $routes->get('arclerk/create-invoice', 'AccountsReceivableController::createView');
 $routes->get('arclerk/payments', 'AccountsReceivableController::paymentsView');
 $routes->get('arclerk/reports', 'AccountsReceivableController::reportsView');
-=======
+
 // Procurement module
 $routes->get('procurement', 'Procurement::index');
 $routes->get('procurement/prs', 'Procurement::purchaseRequests');
@@ -77,7 +76,6 @@ $routes->get('it-admin/backups', 'ITAdmin::backups');
 $routes->post('it-admin/backups/run', 'ITAdmin::runBackup');
 $routes->get('it-admin/backups/download/(:any)', 'ITAdmin::downloadBackup/$1');
 $routes->get('it-admin/system-status', 'ITAdmin::systemStatus');
->>>>>>> Stashed changes
 
 // Accounts Payable Routes
 $routes->get('invoice-management', 'InvoiceManagementController::index');
